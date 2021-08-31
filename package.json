@@ -1,0 +1,30 @@
+{
+  "name": "projectory-socket-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swimshahriar/projectory-socket-server.git"
+  },
+  "keywords": [
+    "socket",
+    "socket server"
+  ],
+  "author": "shahriar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swimshahriar/projectory-socket-server/issues"
+  },
+  "homepage": "https://github.com/swimshahriar/projectory-socket-server#readme",
+  "dependencies": {
+    "socket.io": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
